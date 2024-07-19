@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- 1- La barre de navigation -->
+    <nav>
+      <a href=""
+        ><img src="images/logo falemé.png" alt="img" style="height: 50px"
+      /></a>
+      <label for="menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+      <input type="checkbox" id="menu" />
+      <ul class="nav-list">
+        <li><a href="#welcome-section">Accueil</a></li>
+        <li><a href="#description-section">Description</a></li>
+        <li><a href="#about-me-section">Activité ?</a></li>
+        <li><a href="#gallery-section">Images</a></li>
+        <li><a href="#review-section">Avis</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- 2- La section de bienvenue -->
+    <section id="welcome-section">
+      <div>
+        <h1>La F@lémé</h1>
+        <p>une veine empoisonnée!</p>
+      </div>
+    </section>
+
+    <!-- 3- La section de description du job -->
+    <section id="description-section">
+      <h2>Le fleuve falémé et ses Atoûts</h2>
+      <div class="container">
+        <div class="card card-1">
+          <div class="img-div">
+            <img src="images/description_a.png" alt="" />
+          </div>
+          <div class="text-div">
+            <p>
+              les effets de l’orpaillage devenu principale activité dans la zone
+              de Kédougou. « Quand j’ai découvert qu’il y avait de l’or dans
+              notre champ, j’ai mobilisé toute la famille pour qu’on travaille
+              désormais à l’orpaillage », raconte Sémou Koulibaly, dont le
+              périmètre champêtre est désormais devenu un dioura (site
+              d’orpaillage artisanal).
+            </p>
+          </div>
+        </div>
+        <div class="card card-2">
+          <div class="img-div">
+            <img src="images/description_b.jpg" alt="" />
+          </div>
+          <div class="text-div">
+            <p>
+              Il était une fois la Falémé ; une source de vie pour les
+              populations installées sur ses rives. Agriculture, pêche et autres
+              activités, sans compter l'approvisionnement en eau à usage
+              domestique que permettait la proximité avec le cours d’eau, sont
+              en train de péricliter allant tout droit vers l’anéantissement.
+            </p>
+          </div>
+        </div>
+        <div class="card card-3">
+          <div class="img-div">
+            <img src="images/description_c.jpg" alt="" />
+          </div>
+          <div class="text-div">
+            <p>
+              Plus important affluent du fleuve Sénégal avec un apport de 25%
+              (données de l’organisation pour la mise en valeur du fleuve
+              Sénégal –Omvs), la Falémé qui sert de frontière naturelle entre le
+              Sénégal et le Mali est aujourd’hui victime d’agressions multiples
+              qui font craindre sa disparition.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4- Section à propos de moi -->
+    <section id="about-me-section">
+      <h2>L'agriculture au sein de la F@lémé?</h2>
+      <div class="container">
+        <div class="card">
+          <div class="img-div">
+            <img src="images/image faléméGRAND.jpg" alt="" />
+          </div>
+          <div class="text-div">
+            <p style="color: green">
+              Dans les communes de Bakel et de Kidira, une menace grandissante
+              pèse sur les moyens de subsistance des agriculteurs, maraîchers,
+              et producteurs locaux. La source du problème réside dans la
+              pollution des eaux du fleuve Sénégal et de son affluent, la
+              Falémé, causée par l’utilisation intensive de produits chimiques
+              dans la région de Kédougou, située à 50 kilomètres en amont.
+            </p>
+            <p>
+              Les agriculteurs du boundou dépendent des eaux de la Falémé pour
+              l’irrigation de leurs cultures, tandis que ceux de Bakel utilisent
+              les eaux du fleuve Sénégal pour le maraîchage sur de vastes
+              étendues. Cependant, ces ressources vitales ont été gravement
+              affectées au fil des ans en raison de la pollution générée par les
+              activités d’orpaillage dans la région
+            </p>
+            <p>La f@lémé.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5- La galerie -->
+    <section id="gallery-section">
+      <h2>Quelques Images du fleuve F@lémé</h2>
+      <div class="container">
+        <div class="box box-a">
+          <img src="images/image_a.jpg" alt="" />
+        </div>
+        <div class="box box-b">
+          <img src="images/image_b.jpg" alt="" />
+        </div>
+        <div class="box box-c">
+          <img src="images/image_c.jpg" alt="" />
+        </div>
+        <div class="box box-d">
+          <img src="images/image_d.jpg" alt="" />
+        </div>
+        <div class="box box-e">
+          <img src="images/image_e.jpg" alt="" />
+        </div>
+        <div class="box box-f">
+          <img src="images/image_f.jpg" alt="" />
+        </div>
+        <div class="box box-g">
+          <img src="images/image_g.jpg" alt="" />
+        </div>
+        <div class="box box-h">
+          <img src="images/image_h.jpg" alt="" />
+        </div>
+        <div class="box box-i">
+          <img src="images/image_i.jpg" alt="" />
+        </div>
+        <div class="box box-j">
+          <img src="images/image_j.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 6- La section pour réaliser un effet parallax -->
+    <div id="parallax-div"></div>
+
+    <div id="">
+      <div class="div-text-video">
+        <p>
+          La Falémé est un affluent du fleuve Sénégal qui est pollué par les
+          orpailleurs se trouvant dans la zone de Kéniéba au Sénégal oriental.
+          L'écosystème est touché par ses produits chimiques déversés dans le
+          Fleuve. Des oiseaux ayant consommés l'eau meurent subitement tandis
+          que les populations riveraines de la Falémé souffrent de maladies
+          dermatologiques à cause de la pollution de l'eau.
+        </p>
+      </div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-TRuQMgvnD4?si=kqbl0AdcXONqdJaW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/2QcAlHmC9RE?si=wZI08JSN-O_9SRrr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div></div>
+
+    <!-- 7- La section de témoignages -->
+    <section id="review-section">
+      <h2>Quelques témoignages</h2>
+      <div class="container">
+        <div class="card">
+          <div class="img-div">
+            <img src="images/commentateur1.jpg" alt="" />
+          </div>
+          <div class="content-div">
+            <h3>Falémé : chronique d’une mort silencieuse</h3>
+            <p>
+              Une pollution imputable au dragage des eaux ; un scandale
+              environnemental dû à l’orpaillage ; des activités de pêche qui
+              entraîne la disparition des ressources halieutiques.
+            </p>
+            <div class="stars-div">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-div">
+            <img src="images/commentateur1.jpg" alt="" />
+          </div>
+          <div class="content-div">
+            <p>
+              “Pire, des poissons morts flottent de part et d’autre sur les
+              vagues d’un fleuve visiblement meurtri.” Oumar Coulibaly
+            </p>
+            <div class="stars-div">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-div">
+            <img src="images/commentateur1.jpg" alt="" />
+          </div>
+          <div class="content-div">
+            <p>
+              Orpailleurs sont passés à l’usage de machines et de produits
+              chimiques dangereux et hautement toxiques … sans garantie de
+              respect des normes de sécurité à appliquer.”
+            </p>
+            <div class="stars-div">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8- La section de contact -->
+    <section id="contact-section">
+      <h2>Contact</h2>
+      <div class="container">
+        <div class="infos-div">
+          <p>Email: faleme-boundou@gmail.com</p>
+          <p>Phone: 00221 77 900 00 00 00</p>
+          <div class="icons-div">
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-instagram"></a>
+          </div>
+        </div>
+        <div class="form-div">
+          <form action="backend.php" method="post">
+            <div class="form-group">
+              <input
+                type="text"
+                name="last_name"
+                placeholder="Nom"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="first_name"
+                placeholder="Prénom"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Téléphone"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Message"
+                class="form-control"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="send_button" class="btn" />
+            </div>
+          </form>
+        </div>
+        <div class="map-div">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990104.6933583204!2d-12.811379527445743!3d14.218391181662009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xef133da9b0e421f%3A0xc9f228007f626f74!2zRmFsw6ltw6k!5e0!3m2!1sfr!2sfr!4v1717076010863!5m2!1sfr!2sfr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9- Le footer -->
+    <footer>
+      <p>
+        Copyright &#x00A9; 2021, Association des Réssortissants de Diboly en
+        France.
+      </p>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        let nav = document.querySelector("nav");
+        let nav_list = document.querySelector(".nav-list");
+        let position_nav = window.scrollY > 100;
+
+        nav.classList.toggle("nav-scrolling-active", position_nav);
+      });
+    </script>
+  </body>
+</html>
